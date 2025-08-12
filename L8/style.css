@@ -1,0 +1,78 @@
+.circle{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: rgb(255, 183, 0);
+    margin: 10px;
+}
+
+.small-circle{
+    height: 30px;
+    width: 29px;
+    background-color: black;
+    display:inline-block;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    border-radius: 50%;
+
+}
+.small-circle-2{
+    height: 30px;
+    width: 29px;
+    background-color: black;
+    display:inline-block;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    border-radius: 50%;
+
+}
+
+.nose{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(156, 82, 82);
+    display: inline-block;
+    position: absolute;
+    left: 95px;
+    top: 110px;
+    border-radius: 50%;
+}
+
+.half-circle{
+    height: 25px;
+    width: 74px;
+    background-color: rgb(204, 107, 246);
+    border-radius: 0 0 35px 35px;
+    display: block;
+    position: absolute;
+    left: 70px;
+    top: 140px;
+
+} 
+
+.card{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0px 4px 8px black;
+    transition-duration: 1s;
+}
+
+.desc{
+    padding: 0 2px 0 2px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.card:hover{
+    box-shadow: 0px 8px 16px goldenrod;
+}

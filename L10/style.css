@@ -1,0 +1,52 @@
+h2{
+    color: rgb(255, 140, 0);
+    padding: 0 0 0 15px;
+}
+
+h1{
+    padding: 0 0 0 15px;
+    text-align: start;
+}
+
+h1 span {
+    color: rgb(188, 153, 78);
+}
+
+#pets{
+    display: flex;
+    
+    /* it remode to make the   */
+    justify-content:space-evenly ;
+   
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card{
+    width: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+h4{ 
+    color: rgb(165, 115, 54);
+    padding: 0 0 0 15px;
+    display : flex;
+    justify-content: center;
+    
+}
+/* 
+TO make website responsive */
+@media  (max-width: 500px) {
+    #pets{
+        flex-wrap: wrap;
+    }
+}
