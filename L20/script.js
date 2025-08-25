@@ -11,7 +11,8 @@
 
 // square(n);
 
-//Q 2
+//Q 2 Print "Hello World" after every 2 seconds. Stop it after 10 seconds
+
 let id = setInterval(() => {
     console.log("Hello World ");
 }, 2000);
